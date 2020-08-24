@@ -1,0 +1,46 @@
+body{
+    background-color: #96c7d5;
+    color: #e4f5ff;
+    font-size: 16px;
+    font-family: Andalus, sans-serif;
+}
+.navbar{
+    background-color: #022534 !important;
+}
+.navbar .navbar-brand{
+    color: #e4f5ff;
+    font-size: 2em;
+}
+.navbar-toggler{
+  border-color: rgb(228,245,255) !important;
+}
+#navbarSupportedContent{
+    background-color: #e4f5ff;
+    margin:8px -15px -7px;
+}
+.nav-item
+{
+    border: 1px solid #022534;
+}
+.nav-link{
+    color: #022534 !important;
+}
+#chicken, #sushi, #mutton{
+    background-color: #094f6e;
+}
+@media (min-width:768px){
+    #navbarSupportedContent{
+        display: none !important;
+    }
+    .navbar-toggler{
+        display: none !important;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    #navbarSupportedContent{
+        display: none !important;
+    }
+    .navbar-toggler{
+        display: none !important;
+    }
+}
